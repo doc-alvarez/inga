@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "66f6b488-632f-4509-b6b6-e9f253071716": {
+          "type": "image",
+          "settings": {
+            "collection": "impumelelo"
+          }
+        },
+        "38131b59-a126-44e1-a6ed-022ddc8ceaa4": {
+          "type": "image",
+          "settings": {
+            "collection": "umendo-collection"
+          }
+        }
+      },
+      "block_order": [
+        "66f6b488-632f-4509-b6b6-e9f253071716",
+        "38131b59-a126-44e1-a6ed-022ddc8ceaa4"
+      ],
+      "settings": {
+        "title": "Collections",
+        "layout": "rows",
+        "grid": 3,
+        "display_type": "all"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_content": false
+      }
+    },
+    "163767029299d9a7d8": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "Handcrafted by African artisans",
+        "title": "Luxury redefined.",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p>We believe modern African luxury is practical minimalism, beautifully executed. Timeless pieces that honor sophistication and attention to detail have an appeal that traverses the four corners of the earth. The premium construction and style of our leather goods ensure that each piece is not only classic in design, but built to last a lifetime.<\/p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "alternate_bg_color": false,
+        "color_bg": ""
+      }
+    },
+    "1637670296c2705c52": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Handcrafted",
+        "text": "<p>Our atelier is situated in Johannesburg, where beautiful pieces are born from the expert hands of talented artisans from all over Africa. Exceptional craftsmanship goes into every stitch of your handcrafted piece. Masters at their craft pour a little bit of their soul into every one of our bags.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/Untitled_1024_x_1024_px_6.jpg",
+        "video": "",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "contain",
+        "alternate_bg_color": false,
+        "color_bg": ""
+      }
+    },
+    "1637670301ba0b9450": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Italian Calfskin Leather",
+        "text": "<p>The leather tanning industry in the Tuscany region of Italy goes back centuries. We work with small family owned businesses, handed down from generation to generation. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/Untitled_design_3be544f4-47d9-4a0e-b638-ea3105d7fa11.jpg",
+        "video": "",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "alternate_bg_color": false,
+        "color_bg": ""
+      }
+    },
+    "1637671807360aec2a": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Threads",
+        "text": "<p>We source our thread from an Italian company founded in 198. This leader in high tenacity braided, twisted, and monofilament yarns is popular amongst many luxury leather footwear brands.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/Untitled_design_1.jpg",
+        "video": "",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "contain",
+        "alternate_bg_color": false,
+        "color_bg": ""
+      }
+    },
+    "1637670330cff5b307": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Buckles",
+        "text": "<p>Our metal work such as buckles and zippers comes from the expansive mines throughout Africa. With a focus on sourcing only from ethical and sustainable partners. We make sure the metal work is built to last a lifetime, just like the leather it will be married to. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/Untitled_design_2_ce7ec390-2e75-416d-b1fe-858a3f2759f1.jpg",
+        "video": "",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "alternate_bg_color": false,
+        "color_bg": ""
+      }
+    },
+    "1637670305f3c95dcf": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Silk Lining",
+        "text": "<p>Sourced from the area around Como, in the province of Lombardy Italy, synonymous with the silk industry. Our silk is sourced from a family business situated in the town of Bulgorello – a short distance from Como. It is a third generation family business boasting several of the most well known Italian luxury brands amongst its other clientele.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/Untitled_design_3_bc53bba9-3104-4a45-9d4d-6b02a50c5bea.jpg",
+        "video": "",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "contain",
+        "alternate_bg_color": false,
+        "color_bg": ""
+      }
+    },
+    "1642241100b8831711": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "",
+        "title": "Uniquely Scented",
+        "text": "<p>A scent created only for Inga Atelier is applied to each bag. The scent was specifically designed to invoke fresh energy and spark the nostalgia of opening previous luxurious items. Our unique scent will continue to remind you of the day you received your bag.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/Untitled_design_b0db8777-d860-4ac6-9078-879a7ddef899.jpg",
+        "video": "",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "cover",
+        "alternate_bg_color": false,
+        "color_bg": ""
+      }
+    },
+    "163767180452baac7e": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Ethical, Sustainable, and Eco-friendly.",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "<p>We pride ourselves on empowering and inspiring local African artisans to show the world what modern African luxury is capable of. Providing stable and nice work environments, along with a platform to showcase a rich history of luxury craftsmanship. We make sure our partners are ISO9000 and ISO14000 compliant so as to offer assurance of both the quality of the products as well as the environmental impact of their operations.<\/p>",
+        "image_width": 120,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "auto",
+        "text_alignment": "left",
+        "enlarge_text": false,
+        "full_width": false,
+        "no_padding_bottom": false,
+        "alternate_bg_color": false,
+        "color_bg": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "163767029299d9a7d8",
+    "1637670296c2705c52",
+    "1637670301ba0b9450",
+    "1637671807360aec2a",
+    "1637670330cff5b307",
+    "1637670305f3c95dcf",
+    "1642241100b8831711",
+    "163767180452baac7e"
+  ]
+}

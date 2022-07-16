@@ -1,0 +1,253 @@
+{
+  "sections": {
+    "background-video": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/2467\/5787\/files\/Animoto_video_720p.mp4?v=1634639856",
+        "placeholder_image": "shopify:\/\/shop_images\/Untitled_1024_x_1024_px_1.jpg",
+        "subheading": "",
+        "title": "We've been expecting you... Proceed elegantly.",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "height": "full",
+        "height_desktop": 720,
+        "height_mobile": 500,
+        "full_width": true,
+        "overlay_style_tint": true
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "1601538737164-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "Business Insider",
+            "text": "<p>\"This young entrepreneur sold out all his luxury leather bags after a single tweet - even President Cyril Ramaphosa has one\"<\/p>",
+            "button_label": "",
+            "link": "",
+            "image1_caption": "",
+            "image2_caption": "",
+            "layout": "left"
+          }
+        },
+        "b958d9a3-d5e0-461c-82ca-1b3fa4a0b745": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "CNN",
+            "text": "<p>\"Inga Gubeka's bags have grabbed the attention of fashionistas worldwide\"<\/p>",
+            "button_label": "",
+            "link": "",
+            "image1_caption": "",
+            "image2_caption": "",
+            "layout": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1601538737164-0",
+        "b958d9a3-d5e0-461c-82ca-1b3fa4a0b745"
+      ],
+      "settings": {
+        "title": "For the world changers who desire a leather accessory as unique and exceptional as they are. Handcrafted just for you, with complimentary personalisation.",
+        "button_style": "primary",
+        "alternate_bg_color": false
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "1482141870755-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/O2A6364_Comp_Light_-_resized_for_shopify_banner.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_1048_x_1560_px.jpg",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "slide_link": "",
+            "subheading": "",
+            "title": "Handcrafted leather bags from Africa's richest square mile",
+            "title_size": 34,
+            "heading_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label": "",
+            "overlay_position": "position--hcenter position--vcenter"
+          }
+        }
+      },
+      "block_order": [
+        "1482141870755-1"
+      ],
+      "settings": {
+        "height": "full",
+        "height_desktop": 800,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style_tint": true,
+        "slide_transition": "slide",
+        "slide_navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 4
+      }
+    },
+    "1639752072cceddfa2": {
+      "type": "gallery",
+      "blocks": {
+        "1639752072e4061d7e-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/O2A4987.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "For Him",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "https:\/\/atelier-inga.com\/collections\/bags",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "1639752072e4061d7e-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/O2A5386.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "For Her",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "https:\/\/atelier-inga.com\/collections\/umendo-collection",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "1639752072e4061d7e-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/O2A7218.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "Small Leather Goods",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "https:\/\/atelier-inga.com\/collections\/small-leather-goods-collection",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "d303adee-df0d-4706-8252-34009273a5ba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Inga_8020-min.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "Limited Editions",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "shopify:\/\/collections\/limited-edition-collection",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        }
+      },
+      "block_order": [
+        "1639752072e4061d7e-0",
+        "1639752072e4061d7e-1",
+        "1639752072e4061d7e-2",
+        "d303adee-df0d-4706-8252-34009273a5ba"
+      ],
+      "settings": {
+        "title": "",
+        "grid": 2,
+        "desktop_image_height": 650,
+        "mobile_image_height": 630,
+        "title_size": 44,
+        "enable_margin": true,
+        "full_width": true,
+        "enable_carousel": false,
+        "overlay_style_tint": true,
+        "alternate_bg_color": false
+      }
+    },
+    "16562597931b65eacf": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "Complimentary personalization",
+        "title": "Made just for you, one of one",
+        "text": "<p>We married the rich experience of South-African master artisans to the highest quality Italian materials. Every handmade stitch and fold is thoughtfully brought together in your unique made-to-order bag. Make your mark, and carry something that nobody else has. <\/p>",
+        "button_label": "Discover our quality",
+        "button_link": "shopify:\/\/pages\/quality",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "primary",
+        "image": "shopify:\/\/shop_images\/Retromotive_shoot_-_black_red_Mohale_bag-min.jpg",
+        "video": "",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "contain",
+        "alternate_bg_color": false,
+        "color_bg": ""
+      }
+    },
+    "16341583366926d8f4": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "One bag at a time",
+        "title": "Change the world with us",
+        "text": "<p>Join a President and Oscar winning actors, and discover contemporary luxury from Africa's richest square mile. Straight from Fashion Week's catwalk to your doorstep. Be different and leave the follow-crowd behind.<\/p>",
+        "button_label": "Our Story",
+        "button_link": "shopify:\/\/pages\/our-story",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/DART-9227.JPG",
+        "video": "",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "alternate_bg_color": true,
+        "color_bg": ""
+      }
+    },
+    "1656423626dfbbd282": {
+      "type": "map",
+      "settings": {
+        "heading": "Flagship Store",
+        "address": "<p>Nelson Mandela Square<\/p><p>U27 Lower Level<\/p><p>Inga Atelier x Lorenzi store<\/p><p>Sandown, Johannesburg<\/p><p>South Africa <\/p>",
+        "button": "",
+        "text_alignment": "center",
+        "color_bg": "",
+        "map_address": "Nelson Mandela Square, Sandown, Johannesburg",
+        "api_key": "",
+        "map_style": "silver",
+        "image": "shopify:\/\/shop_images\/Screenshot_2022-06-28_174354.jpg"
+      }
+    }
+  },
+  "order": [
+    "background-video",
+    "testimonials",
+    "slideshow",
+    "1639752072cceddfa2",
+    "16562597931b65eacf",
+    "16341583366926d8f4",
+    "1656423626dfbbd282"
+  ]
+}

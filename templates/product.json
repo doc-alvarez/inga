@@ -1,0 +1,581 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_and_type": {
+          "type": "vendor_and_type",
+          "settings": {
+            "show_vendor": false,
+            "show_type": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_h1": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "a7995925-f04c-40e0-b000-5b220f10daa7": {
+          "type": "text",
+          "settings": {
+            "text": "Custom made for you, with free personalisation (color, initials, lining, etc.). Worldwide delivery in 2 weeks.",
+            "text_style": "subtitle"
+          }
+        },
+        "review_summary": {
+          "type": "review_summary",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_style": "dropdown",
+            "show_realtime_availability": true,
+            "show_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "show_quantity_selector": false,
+            "enable_payment_button": false,
+            "show_pickup_availability": false
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "description_style": "accordion",
+            "show_product_description": true,
+            "tab_2_page": "",
+            "tab_2_title": "Our Quality Promise",
+            "tab_2_content": "<p>Handcrafted with passion by expert African artisans in our South-African atelier. Premium calfskin leather is sourced from a small family owned business in Tuscany Italy, a region well known for its exceptional leather quality. Threads and silk lining come from the Como region in Italy, famous for supplying luxury brands with fabrics. Our uniquely created scent is sprayed on as the cherry on top. We craft and source our singular pieces in an ethical, sustainable, and eco-friendly manner.<\/p>",
+            "tab_3_page": "",
+            "tab_3_title": "Custom Made & Shipping",
+            "tab_3_content": "<p>Custom Made:<br\/>Every bag is handcrafted just for you. Let us know in your cart order notes what kind of personalization you would like. Different color leather, initials, special details, ...<\/p><p><br\/>Shipping:<br\/>We ship worldwide. Your made-to-order bag is delivered on average in around 10 business days.<\/p><p><br\/>Returns:<br\/>Changed your mind? If your bag was not personalized, you are welcome to return your item within 30 days for free. We'll supply you witha free return label.<\/p>",
+            "tab_4_page": "{{ product.metafields.my_fields.dimensions.value }}",
+            "tab_4_title": "Dimensions",
+            "tab_4_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor_and_type",
+        "title",
+        "price",
+        "a7995925-f04c-40e0-b000-5b220f10daa7",
+        "review_summary",
+        "variant_picker",
+        "buy_buttons",
+        "tabs"
+      ],
+      "settings": {
+        "media_style": "two-column",
+        "cart_type": "go_to_cart",
+        "full_width": true,
+        "sticky_product_form": false,
+        "enable_mobile_sticky_cart": false,
+        "show_backorder_text": false,
+        "show_inventory_notice": true,
+        "inventory_notice_threshold": 5,
+        "slide_nav_style": "dots",
+        "show_thumbnails": false,
+        "enable_zoom": true,
+        "enable_video_looping": true,
+        "scroll_to_variant_media": true
+      }
+    },
+    "1639747543cc57f5f6": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/2467\/5787\/files\/Animoto_video_720p.mp4?v=1634639856",
+        "placeholder_image": "shopify:\/\/shop_images\/Untitled_design_3be544f4-47d9-4a0e-b638-ea3105d7fa11.jpg",
+        "subheading": "",
+        "title": "We've been expecting you... Proceed elegantly.",
+        "title_size": 60,
+        "heading_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label": "",
+        "button_link": "",
+        "overlay_position": "position--hcenter position--vcenter",
+        "height": "full",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "overlay_style_tint": true
+      }
+    },
+    "1656422441cd43bf9f": {
+      "type": "gallery",
+      "disabled": true,
+      "blocks": {
+        "1656422441b46cee15-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mathandeni_Nene_Review_7th_Jan_21548d68-ab32-4cfe-94ae-c059e950b9f6.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "1656422441b46cee15-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_from_iOS_c5ae9e2f-c4e2-470a-8357-9805f85393ed.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "1656422441b46cee15-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_from_iOS_6_0f49f4ad-e9f9-4846-9c94-1b0e62d2762f.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "7d801932-faf3-454b-8f02-d3135cf097eb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2020-12-10_at_16.20.22_5756ac4e-389c-4877-8b1a-99885583aeb4.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "a2ec205a-bbc7-4d2b-85af-642f953a7de0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2020-12-06_at_20.42.58_70af80a0-e668-454a-8a07-3de384807580.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "2fd3d35e-232f-4328-8193-90969eb92ee6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/File.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "0ce892ca-d539-4990-83c0-e2947fdf0b01": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2020-12-06_at_20.42.zdz58_5152c1f4-fcfb-4fea-bbdd-f37b3e782e4c.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "75603183-ae30-408a-9c05-88822a571d3b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2020-12-06_at_20.39.04_92b771b0-2286-4ca1-99fe-5b0cb7d29d40.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "fe60229b-0b36-46e4-8205-ab30b2932091": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2020-12-06_at_20.41.54_54a3c07f-a783-4ce8-9976-60d326a0a6b1.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "91827e1a-3764-407b-891c-0d0407e5316c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mathandeni_Nene_Review_7th_Jan_892da1e7-a6bd-4dcb-ad09-fa857a991e22.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "a5769319-d036-4836-b98e-00a93974695d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_20210917-071306_Twitter_0667e5ba-9511-4ecf-bf48-7b9fd4d4248c.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "75a6b5e6-3e72-4689-8cbf-657d6817a33b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_20210917-070910_Twitter_64f9bdb5-1fcb-406b-9d87-ecd4eb99a5ca.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "69158364-9e31-43f7-8201-c2c619b3a035": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_20210917-071403_Twitter_158c7233-b0d8-4e4e-9b44-979a267d703a.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "ea7577c0-539f-4769-8c2f-30e97ae879c7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Review_1_April_2021_7db69bc8-f69a-486c-86f7-81c36f1bd0ee.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "23ad60e8-93b7-4b3c-8573-0017fe213e17": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_20210917-071031_Twitter.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "934f0ade-6ab9-4526-84ec-8ab9936f7169": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_20210917-071523_Twitter_27487130-6da2-410b-8c3f-285d1f91a6aa.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "84aadddf-5f19-4cbf-a7ff-1226c5f93974": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_Theo_eee32050-7853-49b7-b2c6-dd33e441981a.png",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "2d438c10-fa58-4ad2-bd4a-f5f23effdb9c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Review_April_2021_04ce19b2-f1e1-463f-84ed-fd8c6ed0906c.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        },
+        "5eade0d5-9a75-4789-9a8a-8eaff9a93071": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_20210917-071155_Twitter_a1c042f0-cfdb-4db2-a531-9355c468f7a7.jpg",
+            "video": "",
+            "desktop_image_position": "center center",
+            "mobile_image_position": "center center",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "heading_h1": false,
+            "button_label": "",
+            "link": "",
+            "text_alignment": "position--hcenter position--vcenter"
+          }
+        }
+      },
+      "block_order": [
+        "1656422441b46cee15-0",
+        "1656422441b46cee15-1",
+        "1656422441b46cee15-2",
+        "7d801932-faf3-454b-8f02-d3135cf097eb",
+        "a2ec205a-bbc7-4d2b-85af-642f953a7de0",
+        "2fd3d35e-232f-4328-8193-90969eb92ee6",
+        "0ce892ca-d539-4990-83c0-e2947fdf0b01",
+        "75603183-ae30-408a-9c05-88822a571d3b",
+        "fe60229b-0b36-46e4-8205-ab30b2932091",
+        "91827e1a-3764-407b-891c-0d0407e5316c",
+        "a5769319-d036-4836-b98e-00a93974695d",
+        "75a6b5e6-3e72-4689-8cbf-657d6817a33b",
+        "69158364-9e31-43f7-8201-c2c619b3a035",
+        "ea7577c0-539f-4769-8c2f-30e97ae879c7",
+        "23ad60e8-93b7-4b3c-8573-0017fe213e17",
+        "934f0ade-6ab9-4526-84ec-8ab9936f7169",
+        "84aadddf-5f19-4cbf-a7ff-1226c5f93974",
+        "2d438c10-fa58-4ad2-bd4a-f5f23effdb9c",
+        "5eade0d5-9a75-4789-9a8a-8eaff9a93071"
+      ],
+      "settings": {
+        "title": "INGA in your newsfeed",
+        "grid": 4,
+        "desktop_image_height": 300,
+        "mobile_image_height": 340,
+        "title_size": 40,
+        "enable_margin": true,
+        "full_width": true,
+        "enable_carousel": true,
+        "overlay_style_tint": false,
+        "alternate_bg_color": true
+      }
+    },
+    "163463493882de161d": {
+      "type": "testimonials",
+      "blocks": {
+        "163463493882de161d-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "BBC",
+            "text": "<p>\"This young entrepreneur sold out all his luxury leather bags after a single tweet - even President Cyril Ramaphosa has one\"<\/p>",
+            "button_label": "",
+            "link": "",
+            "image1_caption": "",
+            "image2_caption": "",
+            "layout": "right"
+          }
+        },
+        "163463493882de161d-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "CNN",
+            "text": "<p>\"Inga Gubeka's bags have grabbed the attention of fashionistas worldwide\"<\/p>",
+            "button_label": "",
+            "link": "",
+            "image1_caption": "",
+            "image2_caption": "",
+            "layout": "left"
+          }
+        }
+      },
+      "block_order": [
+        "163463493882de161d-0",
+        "163463493882de161d-2"
+      ],
+      "settings": {
+        "title": "",
+        "button_style": "primary",
+        "alternate_bg_color": false
+      }
+    },
+    "1654791150ea149124": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "True exclusivity",
+        "title": "Made just for you",
+        "text": "<p>Every piece that leaves our atelier has been crafted for a singular patron. Deciding how your handcrafted bag should look like is the ultimate exclusive luxury experience. Fashion tells a story, what do you want yours to say?<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/D47A1574.JPG",
+        "video": "",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "cover",
+        "alternate_bg_color": false,
+        "color_bg": ""
+      }
+    },
+    "1648974234faf198fa": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "Responsible, always.",
+        "title": "Justifiable Pricing",
+        "text": "<p>Traditional luxury brands markup their products 10x the true cost. Because we take pride in being a responsible brand, we refuse to do that. We work directly with local African artisans with years of experience and pay fair wages. By cutting out unnecessary middlemen we can stand shoulder to shoulder with traditional luxury brands at a fraction of the typical price.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/DART-9227.JPG",
+        "video": "",
+        "image_width": 100,
+        "image_position": "right",
+        "media_size": "cover",
+        "alternate_bg_color": false,
+        "color_bg": ""
+      }
+    },
+    "1633802226eadf4f6a": {
+      "type": "image-with-text",
+      "settings": {
+        "subheading": "Be different",
+        "title": "Change the world with us.",
+        "text": "<p>Join a President and Oscar winning actors, and change the face of contemporary luxury. From being Fashion Week's runway to your closet. Leave the follow-crowd behind, and discover luxury from Africa's richest square mile.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "center",
+        "text_width": 50,
+        "button_style": "auto",
+        "image": "shopify:\/\/shop_images\/Retromotive_shoot.jpg",
+        "video": "",
+        "image_width": 100,
+        "image_position": "left",
+        "media_size": "contain",
+        "alternate_bg_color": false,
+        "color_bg": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "hide_swatches": true,
+        "show_vendor": false,
+        "grid": 3
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1639747543cc57f5f6",
+    "1656422441cd43bf9f",
+    "163463493882de161d",
+    "1654791150ea149124",
+    "1648974234faf198fa",
+    "1633802226eadf4f6a",
+    "product-recommendations"
+  ]
+}
