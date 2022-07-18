@@ -75,7 +75,64 @@
       <button class="button no-hover">{{ 'products.product.add_to_cart' | t }}</button>
     </div>
   {% endif %}
+<style>
 
+  @media screen and (max-width: 767px) {
+
+    .js-scroll-button {
+      position: absolute;
+      display: block !important;
+      bottom: 20px;
+      left: 15px;
+      cursor: pointer;
+      background: white;
+      border-radius: 50%;
+      z-index: 2;
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      transition: all ease .45s;
+  }
+  svg, .icon, [class^=icon-] {
+      display: inline-block;
+      vertical-align: middle;
+      width: 16px;
+      height: 16px;
+      font-size: 16px;
+      fill: currentColor;
+  }
+  [class*=" icon-"], [class^=icon-] {
+      font-family: icomoon!important;
+      speak: none;
+      font-style: normal;
+      font-weight: 400;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .scroll-wrapper {
+    transition: all ease 1s !important;
+    transition-duration: 1s !important;
+  }
+  }
+</style>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    let playRef = document.querySelector('.js-scroll-button');
+    let wrapperRef = document.querySelector('.swiper-wrapper');
+    let scroller = wrapperRef.scrollWidth;
+    playRef.addEventListener('click', () => {
+      // document.querySelector('.play-icon').click();
+      document.querySelector('video').play();
+      wrapperRef.style.transform = `translate3d(-${scroller * (wrapperRef.childElementCount - 1)}px, 0px, 0px)`
+      
+    })
+  })
+</script>
   <div class="product-area__media {% if media_columns_to_show != 1 %}multi-column{% endif %}"
        data-cc-animate data-cc-animate-duration="2s">
 
@@ -88,7 +145,12 @@
          data-scroll-to-variant-media="{{ section.settings.scroll_to_variant_media }}"
     >
       <div class="theme-viewport swiper-container" data-swiper-nav-style="{{ section.settings.slide_nav_style }}">
-        <div class="theme-images swiper-wrapper">
+        <div style="transition-duration: 1s !important;" class="theme-images swiper-wrapper">
+          
+            <!-- <span class="js-scroll-button" style="display: none;">
+              {%- render 'icon-play' -%}  
+            </span> -->
+          
           {% if product != blank %}
             {% for media in product.media %}
               <div class="theme-img theme-img-{{ forloop.index }} swiper-slide {% if featured_media == media %}current-img{% endif %}"
@@ -96,6 +158,11 @@
                         data-full-size="{{ media.preview_image | img_url: 'master' }}"
                       {% endif %}
               >
+              {% if media.media_type == "image" and forloop.first == true %}
+              <span class="js-scroll-button" style="display: none;">
+                {%- render 'icon-play' -%}  
+              </span>
+              {% endif %}
                 {%- if media_columns_to_show != 1 -%}
                   {% render 'media', media: media, animation_type: 'cc-fade-in', prevent_lazyload: forloop.first %}
                 {%- else -%}
