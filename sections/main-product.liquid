@@ -13,6 +13,9 @@
   .stickyCTA button {
     padding: 30px;
   }
+  .collection-block .caption.upper {
+    display: none;
+  }
 </style>
 {%- assign is_featured_product = false -%}
 {%- assign displayPrice = product.selected_or_first_available_variant.price | money_without_trailing_zeros -%}      
