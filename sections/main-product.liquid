@@ -122,14 +122,16 @@
 </style>
 <script>
   window.addEventListener('DOMContentLoaded', () => {
-    let playRef = document.querySelector('.js-scroll-button');
+    let playRefAll = document.querySelectorAll('.js-scroll-button');
     let wrapperRef = document.querySelector('.swiper-wrapper');
     let scroller = wrapperRef.scrollWidth;
-    playRef.addEventListener('click', () => {
-      // document.querySelector('.play-icon').click();
-      document.querySelector('video').play();
-      wrapperRef.style.transform = `translate3d(-${scroller * (wrapperRef.childElementCount - 1)}px, 0px, 0px)`
-      
+    
+    playRefAll.forEach(playRef => {
+      playRef.addEventListener('click', () => {
+        // document.querySelector('.play-icon').click();
+        document.querySelector('video').play();
+        wrapperRef.style.transform = `translate3d(-${scroller * (wrapperRef.childElementCount - 1)}px, 0px, 0px)`
+      })
     })
   })
 </script>
@@ -158,9 +160,9 @@
                         data-full-size="{{ media.preview_image | img_url: 'master' }}"
                       {% endif %}
               >
-              {% if media.media_type == "image" and forloop.first == true %}
+              {% if media.media_type == "image" %}
               <span class="js-scroll-button" style="display: none;">
-                {%- render 'icon-play' -%}  
+                {%- render 'icon-svg' -%}  
               </span>
               {% endif %}
                 {%- if media_columns_to_show != 1 -%}
